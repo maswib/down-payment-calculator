@@ -1,0 +1,41 @@
+.dpc-container {
+    overflow: hidden;
+}
+
+.dpc-form-input {
+    margin-bottom: 30px;
+}
+
+.dpc-form-input input {
+    width: 100%;
+}
+
+.dpc-calculate {
+    text-align: right;
+}
+
+.dpc-result {
+    margin-bottom: 30px;
+}
+
+.dpc-result-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.dpc-result span {
+    text-align: right;
+    display: block;
+}
+
+@media only screen and (min-width: 960px) {
+    .dpc-form-input {
+        float: left;
+        width: 48%;
+    }
+
+    .dpc-result {
+        float: right;
+        width: 48%;
+    }
+}
