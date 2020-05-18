@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Down Payment Calculator\n"
-"POT-Creation-Date: 2020-05-18 05:09+0700\n"
+"POT-Creation-Date: 2020-05-18 23:29+0700\n"
 "PO-Revision-Date: 2020-03-22 13:48+0700\n"
 "Last-Translator: \n"
 "Language-Team: Wahyu Wibowo <hello@wahyuwibowo.com>\n"
@@ -19,6 +19,54 @@ msgstr ""
 "esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: down-payment-calculator.php\n"
 
-#: down-payment-calculator.php:72
-msgid "Loading..."
+#: down-payment-calculator.php:74
+msgid "Calculating..."
+msgstr ""
+
+#: down-payment-calculator.php:83
+msgid "Home Price ($)"
+msgstr ""
+
+#: down-payment-calculator.php:84
+msgid "Down Payment (%)"
+msgstr ""
+
+#: down-payment-calculator.php:85
+msgid "Closing Costs (%)"
+msgstr ""
+
+#: down-payment-calculator.php:86
+msgid "Interest Rate (%)"
+msgstr ""
+
+#: down-payment-calculator.php:87
+msgid "Loan Term (years)"
+msgstr ""
+
+#: down-payment-calculator.php:89
+msgid "Calculate"
+msgstr ""
+
+#: down-payment-calculator.php:93
+msgid "Result"
+msgstr ""
+
+#: down-payment-calculator.php:95
+msgid "Down Payment"
+msgstr ""
+
+#: down-payment-calculator.php:96
+msgid "Closing Costs"
+msgstr ""
+
+#: down-payment-calculator.php:97
+msgid "Upfront Costs = Down Payment + Closing Costs"
+msgstr ""
+
+#: down-payment-calculator.php:98
+msgid "Loan Amount"
+msgstr ""
+
+#: down-payment-calculator.php:99
+msgid "Monthly Payment"
 msgstr ""
