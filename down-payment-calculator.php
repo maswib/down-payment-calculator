@@ -5,7 +5,7 @@
  * Description: Calculate an estimated down payment.
  * Author: Wahyu Wibowo
  * Author URI: https://wahyuwibowo.com
- * Version: 1.0
+ * Version: 1.0.1
  * Text Domain: down-payment-calculator
  * Domain Path: languages
  */
@@ -65,7 +65,7 @@ class Down_Payment_Calculator {
     }
     
     public function enqueue_scripts() {
-        wp_enqueue_script( 'dpc-frontend', plugin_dir_url( __FILE__ ) . 'assets/js/frontend.js', array( 'jquery' ) );
+        wp_register_script( 'dpc-frontend', plugin_dir_url( __FILE__ ) . 'assets/js/frontend.js', array( 'jquery' ), false, true );
         wp_enqueue_style( 'dpc-frontend', plugin_dir_url( __FILE__ ) . 'assets/css/frontend.css' );
         
         wp_localize_script( 'dpc-frontend', 'Down_Payment_Calculator', array(
@@ -76,6 +76,8 @@ class Down_Payment_Calculator {
     }
     
     public function add_shortcode() {
+        wp_enqueue_script( 'dpc-frontend' );
+        
         $output = '<div class="dpc-container">';
         
         $output .= '<div class="dpc-form-input">';
